@@ -15,7 +15,7 @@ body {
 .container {
   padding:20px;
   width:60%;
-  height:450px;
+  height:460px;
   margin:auto;
 }
 
@@ -26,25 +26,45 @@ body {
   border: 2px solid white;
 }
 
-.two {
+.subcontainer {
+  width:100%;
+  height:100px;
+  text-align: left;
+  font-size: 30px;
   background-color:#66ff66;
-  width:100%;
-  height:25%;
   border: 2px solid white;
+ }
+
+.online {
+  position:relative;
+  float: right;
+  margin: 5px 20px 10px 10px;
+  font-size:25px;
+  color:black;
 }
 
-.three {
-  background-color:#7fffd4;
-  width:100%;
-  height:25%;
-  border: 2px solid white;
+.offline {
+  float: right;
+  color:red;
+  margin: 5px 20px 10px 10px;
+  font-size:25px;
 }
 
-.four {
-  background-color:#ffba66;
-  width:100%;
-  height:25%;
-  border: 2px solid white;
+.move {
+  margin: 25px 10px -40px 10px;
+  width:80%;
+}
+
+.picture {
+  height:75px;
+  width:75px;
+  border-radius:50px;
+  border:2px solid white;
+  margin:10px;
+}
+
+a:hover {
+  text-decoration:none;
 }
 
 @media (max-width:1200px) {
