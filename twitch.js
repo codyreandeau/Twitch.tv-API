@@ -14,7 +14,7 @@ $(function() {
         game = data.stream.game;
       }
       
-      $('.stream').append("<div class='subcontainer'><div class='move'><a href='http://www.twitch.tv/" + users[i] + "' target='_blank'>" + users[i] + "</div><span class="+status+">"+status+"</span><div><div>"+game+"</div></a></div>");
+      $('.stream').append("<div class='subcontainer'><div class='picture'></div><div class='move'><a href='http://www.twitch.tv/" + users[i] + "' target='_blank'>" + users[i] + "</div><span class="+status+">"+status+"</span><div><div>"+game+"</div></a></div>");
         
     });
    })(i);
