@@ -6,6 +6,7 @@
 
 h1 {
   margin:30px 0px 0px 20px;
+  font-size:40px;
 }
 
 body {
@@ -13,7 +14,7 @@ body {
 }
 
 .container {
-  padding:20px;
+  padding:10px;
   width:60%;
   height:460px;
   margin:auto;
@@ -43,10 +44,16 @@ body {
   color:black;
 }
 
+.game {
+  margin:40px 0px 0px 102px;
+  font-size:15px;
+  color: black;
+}
+
 .offline {
   float: right;
   color:red;
-  margin: 5px 20px 10px 10px;
+  margin: 4px 20px 10px 10px;
   font-size:25px;
 }
 
@@ -76,5 +83,27 @@ a:hover {
 @media (max-width:680px) {
   .container {
     width:100%;
+  }
+}
+
+@media (max-width:420px) {
+   .online {
+    font-size:18px;
+    margin-top:12px;
+  }
+  
+   .offline {
+    font-size:18px;
+    margin-top:12px;
+  }
+  
+  a {
+    font-size:22px;
+  }
+}
+
+@media (max-width:376px) {
+  h1 {
+    margin:10px 0px 0px 20px;
   }
 }
